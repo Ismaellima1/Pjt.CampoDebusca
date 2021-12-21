@@ -1,0 +1,40 @@
+* {
+          margin: 0;padding:0;background-color: rgb(146, 144, 144);
+}
+.pesquisa {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          margin: 0px;
+          width: 304px;
+          height: 36px;
+}
+
+.pesquisa input {
+          background: white;
+          margin: 0px;
+          padding: 0px 37px;
+          width: 230px;
+          height: 32px;
+          border-radius: 20px;
+          border: 0px;
+}
+
+.pesquisa img#lupa,#mic {
+          width: 20px;
+          background: white;
+}
+
+img#mic {
+          position: fixed;
+          top: 7px;
+          left: 8px;
+}
+
+img#lupa {
+          position: fixed;
+          top: 5px;
+          left: 17em;
+}
+
